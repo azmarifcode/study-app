@@ -1,0 +1,42 @@
+.myPic {
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+}
+.myProfile {
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 5px;
+    padding: 5px;
+}
+.m-10 {
+    padding-top: 20px;
+}
+.myDetails {
+    background-color: #e6e6ff;
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 5px;
+    padding: 5px;
+}
+.studyContainer {
+    box-shadow: 1px 1px 5px;
+    border-radius: 10px;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+}
+
+.time div {
+    margin: 10px;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.time div:hover {
+    background-color: rgb(181, 175, 169);
+}
